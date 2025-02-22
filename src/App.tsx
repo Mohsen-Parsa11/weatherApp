@@ -77,7 +77,7 @@ const todayTime = today.toLocaleDateString("en-US", options);
         <div className="flex flex-col w-full p-4">
           <h2 className="text-white text-3xl mb-1">{todayTime}</h2>
           <h3 className="text-white text-lg">{currentWeather?.name}</h3>
-          <div className="flex justify-around my-8 px-4">
+          <div className="flex flex-col lg:flex-row justify-around my-8 px-4">
             <img
               src="https://cdn3.iconfinder.com/data/icons/weather-344/142/sunny-512.png"
               className="!w-72 mx-auto"
